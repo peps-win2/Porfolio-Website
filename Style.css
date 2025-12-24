@@ -2,3 +2,9 @@
   color: Red;
   font-size: 20 px;
 }
+
+* {
+  margin: 10 px;
+  padding: 10 px;
+  box-model: border-box;
+}
