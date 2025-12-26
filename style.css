@@ -13,4 +13,18 @@ Button:hover {
   background:darkblue;
 }
 
+.box {
+  width: 120px;
+  height: 120px;
+  background: red;
+  margin-top: 20px;
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all 0.4s ease;
+}
 
+.box.active {
+  opacity: 1;
+  transform: scale(1);
+  background: green;
+}
