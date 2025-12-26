@@ -3,48 +3,10 @@
   font-size: 20 px;
 }
 
-* {
-  margin: 10 px;
-  padding: 10 px;
-  box-model: border-box;
-}
-
-.animation-container {
-    display: flex;
-    align-items: center;
-    font-size: 2rem; /* Adjust as needed */
-    height: 2.5rem; /* Match font-size + padding for alignment */
-    overflow: hidden; /* Hides words outside the view */
-}
-
-.static-text {
-    margin-right: 10px;
-    /* Other static text styles */
-}
-
-.flip-words-container {
-    position: relative;
-    height: 100%;
-    /* This container will move up and down */
-}
-
-.flip-word {
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    transform: rotateX(90deg); /* Initial flip state */
-    transform-origin: bottom;
-    transition: opacity 0.5s, transform 0.5s;
-    color: crimson; /* Example color */
-}
-
-/* Classes to be added/removed by JavaScript */
-.is-active {
-    opacity: 1;
-    transform: rotateX(0deg); /* Active state */
-}
-
-.is-inactive {
-    opacity: 0;
-    transform: rotateX(-90deg); /* Outgoing flip state */
+h1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: myAnimation;
+  animation-duration: 4s;
 }
