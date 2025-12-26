@@ -4,7 +4,7 @@
 }
 
 Button {
-  background: red;
+  background: Red;
   color: white;
   transition: 0.3s;
 }
