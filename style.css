@@ -13,13 +13,4 @@ Button:hover {
   background:darkblue;
 }
 
-.box {
-  width: 100px;
-  height: 100px;
-  background: red;
-  transition: transform 0.5s;
-}
 
-.box:hover {
-  transform: scale(1.2);
-}
