@@ -1,9 +1,7 @@
 
 console.log("Hello, this is my website!");
 
-const button = document.getElementById("ToggleBox");
-const box = document.querySelector(".box");
-
-button.addEventListener("click", () => {
-  box.classList.toggle("active");
+document.getElementById('ToggleBox').addEventListener('click', function() {
+    const box = document.getElementById('box');
+    box.style.opacity = 1; // Fades in the box
 });

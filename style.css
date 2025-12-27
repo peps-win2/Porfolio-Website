@@ -19,12 +19,6 @@ Button:hover {
   background: red;
   margin-top: 20px;
   opacity: 0;
-  transform: scale(0.5);
-  transition: all 0.4s ease;
+  transition: opacity is ease-in-out;
 }
 
-.box.active {
-  opacity: 1;
-  transform: scale(1);
-  background: green;
-}
